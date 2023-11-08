@@ -18,3 +18,13 @@ if openai_api_key:
         agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
         # verbose=True
     )
+
+    if prompt := st.chat_input():
+        st.chat_message("User").write(prompt)
+        with st.chat_message("Assistant"):
+            st.write("Thinking...")
+            st_callback = StreamlitCallbackHandler(st.container())
+            response = agent.run(prompt, callbacks=[st_callback])
+            st.write(response)
+else:
+    st.error("Please enter a valid OpenAI API Key.")

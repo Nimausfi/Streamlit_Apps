@@ -1,6 +1,6 @@
 ## **Streamlit Apps**
 
-#### This repository includes two applications deployed using Streamlit.
+#### This repository includes three applications deployed using Streamlit.
 
 ### **Chat AI App**
 
@@ -13,3 +13,10 @@ The [LangChain](https://github.com/langchain-ai/langchain) framework is employed
 The [Bark](https://github.com/suno-ai/bark) model is utilized to build a text-to-audio application, featuring highly realistic, multilingual speech as well as other audio, including music, background noise and simple sound effects.
 
 +[img_2]
+
+
+### **Text to Image App**
+
+The [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) model is utilized for high-resolution image synthesis using CUDA.
+
++[img_3]

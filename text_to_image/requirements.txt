@@ -1,6 +1,4 @@
 streamlit==1.28.2
 langchain==0.0.335
-torch==2.1.1+cu118
-torchaudio==2.1.1+cu118
-torchvision==0.16.1+cu118
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 diffusers==0.23.0

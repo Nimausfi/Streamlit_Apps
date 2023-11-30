@@ -5,5 +5,8 @@ torch==2.1.1+cu118
 torchaudio==2.1.1+cu118
 torchvision==0.16.1+cu118
 diffusers==0.23.0
+ipython==8.14.0
+ipython-genutils==0.2.0
+ipywidgets==8.0.6
 Pillow==10.1.0
 transformers==4.35.2

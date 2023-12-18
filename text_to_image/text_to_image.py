@@ -17,7 +17,7 @@ temperature = 1.0
 top_k = 50
 
 # Streamlit app
-st.title("Text to Image App")
+st.title("Text to Image Converter")
 
 # Text input for user prompt
 prompt = st.text_area("Enter your text prompt:", height=5)
